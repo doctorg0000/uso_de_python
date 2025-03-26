@@ -7,14 +7,14 @@ mismo y comprobar según la entrada que dé el
 usuario. 
 
 '''
-w="w"
-expresion = "Python es un lenguaje de programación muy popular"
+w=str("w")
+expresion = str("Python es un lenguaje de programación muy popular")
 
-print(w is expresion)
+print(w in expresion)
 
-X=input('Introduce una letra ')
+X=str(input('Introduce una letra '))
 
-print(X is expresion)
+print(X in expresion)
 
 # # Definir la letra 'w'
 # w = "w"
