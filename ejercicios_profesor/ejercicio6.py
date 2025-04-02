@@ -20,7 +20,7 @@ print(lista_1)
 
 print(lista_1[::-1])
 
-print("la suma de la lista es = ", x+a+s+d+f)
+print(sum(lista_1))
 
 
 

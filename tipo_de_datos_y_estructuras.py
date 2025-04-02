@@ -20,8 +20,8 @@
 
 #si se usa un numero negativo usa un slice invertido osea trae la porcion al contrario 
 
-x="juanito perez"
-print(x[1:-4])
+# x="juanito perez"
+# print(x[1:-4])
 
 # tipos de datos numericos
 
@@ -39,8 +39,8 @@ print(x[1:-4])
 
 # class set  investigar su uso 
 
-conjunto_1={"a","b","c","c"}
-conjunto_2={"a","b","c"}
+# conjunto_1={"a","b","c","c"}
+# conjunto_2={"a","b","c"}
 
 # print(type(conjunto_1))
 # print(conjunto_1)
@@ -56,10 +56,20 @@ conjunto_2={"a","b","c"}
 
 # print(conjunto_2)
 
-conjunto_3=conjunto_1.union(conjunto_2)
-print(conjunto_3)
+# conjunto_3=conjunto_1.union(conjunto_2)
+# print(conjunto_3)
 
 #al usar .union agrupa los dos conjuntos y no muestra los repetidos
 
-conjunto_1.clear()
-print(conjunto_1)
+# conjunto_1.clear()
+# print(conjunto_1)
+
+# usar listas 
+milista=[1,5,7,9,True]
+print(milista)
+print(len(milista)) #funcion len 
+milista.append(False)
+print(milista)
+print(sum(milista)) #funcion de python suma)
+
+
